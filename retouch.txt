@@ -1,0 +1,22 @@
+static
+const
+constexpr
+namespaces
+inline
+pointers
+references
+
+- whats left in learncpp
+- read ia notes for sections outlined
+- design queue - describe interface, what public methods, and expected behavior, capacity related ones 
+- talk through different implementations, and how each of them work, edge cases
+- walk through tradeoffs between each (both bounded/unbounded) - space and time complexity, cache locality and allocations, practical pros/cons
+- design queue - unbounded, bounded, templated, api design (how to handle underflow and overflow), edge cases and implement them
+- go through extentions
+  - how to make bounded unbounded, amortized costs of resizing
+  - thread safe vs non thread safe versions - blocking vs non-blocking which is preferable
+    - how to expose variants through classes
+
+do for deque, vector, stack, linked list, trees, graphs, hashtable
+
+do same for rest of optiver leetcode q's
